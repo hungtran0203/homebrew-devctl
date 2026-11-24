@@ -2,27 +2,27 @@
 class Devctl < Formula
   desc "devctl: personal infrastructure control plane CLI"
   homepage "https://devctl.next-qr.com"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://devctl-dl.next-qr.com/cli/stable/0.1.1/devctl-aarch64-apple-darwin.tar.xz"
-      sha256 "1bf2a74c80f3b2b4d02386378d1ca7176476821f256eb49b474635186a7d943f"
+      url "https://devctl-dl.next-qr.com/cli/stable/0.1.2/devctl-aarch64-apple-darwin.tar.xz"
+      sha256 "380a487a995cd5efc85c7089b0478ee0f81f5336b50fc0b133095d316e5819e2"
     end
     on_intel do
-      url "https://devctl-dl.next-qr.com/cli/stable/0.1.1/devctl-x86_64-apple-darwin.tar.xz"
-      sha256 "23279638e81659f5e5a0fb29c899ceb6eabf6b6d01361080ee8b1514cdb49444"
+      url "https://devctl-dl.next-qr.com/cli/stable/0.1.2/devctl-x86_64-apple-darwin.tar.xz"
+      sha256 "99166ba722f498914a00e02dc82c224ee644094d436a0fc70994b2adf42e998f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://devctl-dl.next-qr.com/cli/stable/0.1.1/devctl-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "e5ec2eadacc0d54e21892a5bb7f427de1fa0095a2ddd01f03bebd462b038361a"
+      url "https://devctl-dl.next-qr.com/cli/stable/0.1.2/devctl-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "c232b3eddb7f1542222fe69d881ba5e94f81b09fded5250270406bf0bca8e672"
     end
     on_intel do
-      url "https://devctl-dl.next-qr.com/cli/stable/0.1.1/devctl-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "caf0284db47d0f15a9d0dbbb8a46fbb5ca2766eb4dd675a1876cb22d4e0f11d4"
+      url "https://devctl-dl.next-qr.com/cli/stable/0.1.2/devctl-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "b84946b9f71b8736d65fafe28509b95eb6583597c7ab4679a70c77efacbd6ba6"
     end
   end
 
